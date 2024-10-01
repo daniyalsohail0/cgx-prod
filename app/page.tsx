@@ -1,11 +1,9 @@
-import { NavigationMenuDemo } from "@/components/nav-demo";
+import Navbar from "@/components/navigation/navbar";
 import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center">
-      <NavigationMenuDemo />
-    </div>
+    <Navbar />
   );
 };
 
